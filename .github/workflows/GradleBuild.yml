@@ -15,5 +15,23 @@ jobs:
           java-version: 17
           distribution: 'corretto'
           cache: gradle
+
       - name: Build with Gradle
         run: ./gradlew build
+
+      # Note that running test task will also perform code coverage
+      - name: Run Tests
+        run: ./gradlew test
+
+      - name: Produce JavaDoc
+        run: ./gradlew javadoc
+
+      - uses: actions/upload-artifact@v3
+        with:
+          name: Reports
+          path: build/reports/
+
+      - uses: actions/upload-artifact@v3
+        with:
+          name: JavaDocs
+          path: build/docs
