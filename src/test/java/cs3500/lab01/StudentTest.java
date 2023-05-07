@@ -7,10 +7,14 @@ import static org.junit.jupiter.api.Assertions.*;
 class StudentTest {
 
     @Test
-    void testToString() {
+    void testConstructor() {
+        assertDoesNotThrow(() -> new GradeBookEntry(100, 100, 100));
+    }
 
-        Student s = new Student("Mark Fontenot", 3.6);
-        assertEquals(s.toString(), "Mark Fontenot");
-
+    @Test
+    void testCourseGrade() {
+        GradeBookEntry g = new GradeBookEntry(100,100,100);
+        double avg = g.getCourseGrade();
+        assertEquals(100.0, avg, 0.01);
     }
 }
