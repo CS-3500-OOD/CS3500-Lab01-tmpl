@@ -1,6 +1,7 @@
 plugins {
-//    id 'java'
     id 'application'
+    id 'jacoco'
+    id 'checkstyle'
 }
 
 group 'cs3500.lab01'
@@ -19,4 +20,19 @@ dependencies {
 
 test {
     useJUnitPlatform()
+}
+
+
+//Jacoco for code coverage
+test {
+    finalizedBy jacocoTestReport // generate report after code coverage test
+}
+jacocoTestReport {
+    dependsOn test // make sure that test task run before reports are run.
+}
+
+//set up for the Check Style Tasks in Gradle
+checkstyle {
+    toolVersion = '10.10.0'
+    configFile = 'config/checkstyle/cs3500-checkstyle.xml' as File
 }

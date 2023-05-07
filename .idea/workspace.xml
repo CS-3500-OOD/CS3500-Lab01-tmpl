@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6938ae70-ea97-4a02-9a97-d67794a19987" name="Changes" comment="Initial Commit of Lab01 Template">
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/checkstyle/cs3500-checkstyle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cs3500/lab01/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs3500/lab01/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs3500/lab01/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs3500/lab01/GradeBookEntry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cs3500/lab01/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cs3500/lab01/StudentTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +46,13 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="CS3500-Lab01" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="other" type="c8890929:TasksNode$1" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CS3500-Lab01" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -83,6 +95,7 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "/Users/markfontenot/code/CS3500/CS3500-Lab01-tmpl",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -92,6 +105,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -99,7 +115,7 @@
       <recent name="cs3500.lab01" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CS3500-Lab01 [buildEnvironment]">
+  <component name="RunManager" selected="Gradle.CS3500-Lab01 [test]">
     <configuration name="Driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cs3500.lab01.Driver" />
       <module name="CS3500-Lab01.main" />
@@ -132,6 +148,7 @@
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
       <method v="2" />
     </configuration>
     <configuration name="CS3500-Lab01 [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -153,6 +170,7 @@
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
       <method v="2" />
     </configuration>
     <configuration name="CS3500-Lab01 [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -174,6 +192,7 @@
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
       <method v="2" />
     </configuration>
     <configuration name="CS3500-Lab01 [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -195,14 +214,15 @@
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CS3500-Lab01 [buildEnvironment]" />
         <item itemvalue="Gradle.CS3500-Lab01 [test]" />
-        <item itemvalue="Gradle.CS3500-Lab01 [build]" />
         <item itemvalue="Gradle.CS3500-Lab01 [run]" />
+        <item itemvalue="Gradle.CS3500-Lab01 [buildEnvironment]" />
+        <item itemvalue="Gradle.CS3500-Lab01 [build]" />
         <item itemvalue="Application.Driver" />
       </list>
     </recent_temporary>
@@ -216,6 +236,7 @@
       <option name="presentableId" value="Default" />
       <updated>1682067741104</updated>
       <workItem from="1682067742252" duration="2496000" />
+      <workItem from="1683449834596" duration="1803000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit of Lab01 Template">
       <created>1682069209617</created>
