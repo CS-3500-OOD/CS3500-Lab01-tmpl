@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6938ae70-ea97-4a02-9a97-d67794a19987" name="Changes" comment="Update Build yml file.">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/GradleBuild.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/GradleBuild.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs3500/lab01/GradeBookEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs3500/lab01/GradeBookEntry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cs3500/lab01/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cs3500/lab01/StudentTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683452772570</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update Build yml file.">
+      <created>1683453259130</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683453259130</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

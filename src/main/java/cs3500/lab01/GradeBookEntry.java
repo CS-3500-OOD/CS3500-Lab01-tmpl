@@ -12,8 +12,4 @@ public class GradeBookEntry {
         this.exam3 = ex3;
     }
 
-    public double getCourseGrade() {
-        return (exam1 + exam2 + exam3) / 3.0;
-    }
-
 }
